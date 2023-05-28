@@ -1,11 +1,11 @@
 import React from 'react'
 
 function Focus() {
-    const focusText = ()=>{
-        console.log("You have focus on input tag")
+    const focusText = (a)=>{
+        a.target.style.backgroundColor="blue"
     }
-    const blurText = ()=>{
-        console.log("You have blur on input tag")
+    const blurText = (a)=>{
+        a.target.style.backgroundColor="limegreen"
     }
   return (
     <div><br /><br />
