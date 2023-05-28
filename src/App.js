@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Clipboard from './Pages/Clipboard';
+import Focus from './Pages/Focus';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Contact name="Asad" number="23566" />
       <Contact name="Jaman" number="63288" /> */}
       <Clipboard/>
+      <Focus/>
     </div>
   );
 }
