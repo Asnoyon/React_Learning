@@ -5,6 +5,9 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Clipboard from './Pages/Clipboard';
 import Focus from './Pages/Focus';
+import Keyboard from './Pages/Keyboard';
+import Filter from './Pages/Filter';
+import WelcomeAdmin from './Pages/WelcomeAdmin';
 function App() {
   return (
     <div className="App">
@@ -15,6 +18,9 @@ function App() {
       <Contact name="Jaman" number="63288" /> */}
       <Clipboard/>
       <Focus/>
+      <Keyboard/>
+      
+      <WelcomeAdmin/>
     </div>
   );
 }
