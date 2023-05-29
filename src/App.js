@@ -8,6 +8,7 @@ import Focus from './Pages/Focus';
 import Keyboard from './Pages/Keyboard';
 import Filter from './Pages/Filter';
 import WelcomeAdmin from './Pages/WelcomeAdmin';
+import Style from './Pages/Style';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function App() {
       <Clipboard/>
       <Focus/>
       <Keyboard/>
-      
+      <Style/>
       <WelcomeAdmin/>
     </div>
   );
