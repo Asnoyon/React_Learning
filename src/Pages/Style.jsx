@@ -14,6 +14,7 @@ function Style() {
         <h1 style={styleH1}>My first style Component</h1>
         <h2 className='noyon'> Hello external Css. How are you</h2>
         <h2 className={NoyonStyles.noyon}> Hello external Css. How are you</h2>
+        <button className={NoyonStyles.noyonBtn}>Submit</button>
     </div>
   )
 }
