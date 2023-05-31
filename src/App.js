@@ -9,6 +9,8 @@ import Keyboard from './Pages/Keyboard';
 import Filter from './Pages/Filter';
 import WelcomeAdmin from './Pages/WelcomeAdmin';
 import Style from './Pages/Style';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactBootstrap from './Pages/ReactBootstrap';
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,7 @@ function App() {
       <Keyboard/>
       <Style/>
       <WelcomeAdmin/>
+      <ReactBootstrap/>
     </div>
   );
 }
