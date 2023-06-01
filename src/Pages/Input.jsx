@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Input extends Component {
     FormChange = (event)=>{
-        console.log(event.target.name)
+        console.log(event.target.value)
     }
     
   render() {
@@ -17,6 +17,7 @@ export default class Input extends Component {
             <option value="Entertainment">Entertainment</option>
          </select>
          <input type="date" name="CreationDate" onChange={this.FormChange} className='form-control' />
+         <textarea name="About Textarea" onChange={this.FormChange} className='form-control'></textarea>
       </div>
     )
   }
