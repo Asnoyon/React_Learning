@@ -16,16 +16,16 @@ function App() {
   return (
     <div className="App">
       {/* <Home/> */}
-      <About/>
+      {/* <About/> */}
       {/* <Contact name="Noyon" number="13585" />
       <Contact name="Asad" number="23566" />
       <Contact name="Jaman" number="63288" /> */}
-      <Clipboard/>
+      {/* <Clipboard/>
       <Focus/>
       <Keyboard/>
       <Style/>
       <WelcomeAdmin/>
-      <ReactBootstrap/>
+      <ReactBootstrap/> */}
       <Input/>
     </div>
   );
