@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Input extends Component {
     FormChange = (event)=>{
-        console.log(event.target.target)
+        console.log(event.target.name)
     }
     
   render() {
