@@ -12,6 +12,7 @@ import Style from './Pages/Style';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactBootstrap from './Pages/ReactBootstrap';
 import Input from './Pages/Input';
+import ControlComponent from './Pages/ControlComponent';
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
       <WelcomeAdmin/>
       <ReactBootstrap/> */}
       <Input/>
+      <ControlComponent/>
     </div>
   );
 }
