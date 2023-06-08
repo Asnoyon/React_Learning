@@ -13,6 +13,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactBootstrap from './Pages/ReactBootstrap';
 import Input from './Pages/Input';
 import ControlComponent from './Pages/ControlComponent';
+import Heading from './Pages/BlogWebsite/Heading';
+import Carousel from './Pages/BlogWebsite/Carousel';
 function App() {
   return (
     <div className="App">
@@ -27,8 +29,10 @@ function App() {
       <Style/>
       <WelcomeAdmin/>
       <ReactBootstrap/> */}
-      <Input/>
-      <ControlComponent/>
+      {/* <Input/>
+      <ControlComponent/> */}
+      <Heading/>
+      <Carousel/>
     </div>
   );
 }

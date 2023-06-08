@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item{
+    background-color: #F8F9FA;
+    margin-top: 50px;
+   
+}
+.ShortTitle{
+    font-size: 15px;
+    color: #5d5d5d;
+    margin-top: 6px;
+    width: 90%;
+
+}
+.LongTitle{
+    font-size: 20px;
+}
+.ChannelName{
+    font-size: 15px;
+    color: #5d5d5d;
+    font-weight: bold;
+    margin-bottom: -8px;
+}
