@@ -11,7 +11,7 @@ function Carousel() {
                         <img class="d-block w-100" src="img/banner3.jpg" alt="First slide"/>
                        </div>
                        <div className="col-md-6">
-                        <p className='ShortTitle'>Lorem ipsom</p>
+                        <p className='ShortTitle'>Lorem ipsom st</p>
                         <h3 className='LongTitle'>Live with John</h3>
                         <p className='ShortTitle'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae facere dolores dolore nesciunt, accusantium consectetur consequuntur provident quia. Sequi maiores nam pariatur facilis ipsum, sint tempora accusantium, ratione id, libero odit soluta saepe? Pariatur eius earum, veritatis quae suscipit ab?</p>
                         <p className='ChannelName'>Noyon</p>
