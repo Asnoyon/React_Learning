@@ -18,7 +18,7 @@ import Carousel from './Pages/BlogWebsite/Carousel';
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
+      <Home/>
       {/* <About/> */}
       {/* <Contact name="Noyon" number="13585" />
       <Contact name="Asad" number="23566" />
