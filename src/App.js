@@ -20,19 +20,19 @@ function App() {
     <div className="App">
       <Home/>
       <About/>
-      {/* <Contact name="Noyon" number="13585" />
+      <Contact name="Noyon" number="13585" />
       <Contact name="Asad" number="23566" />
-      <Contact name="Jaman" number="63288" /> */}
-      {/* <Clipboard/>
+      <Contact name="Jaman" number="63288" />
+      <Clipboard/>
       <Focus/>
       <Keyboard/>
       <Style/>
       <WelcomeAdmin/>
-      <ReactBootstrap/> */}
-      {/* <Input/>
-      <ControlComponent/> */}
-      <Heading/>
-      <Carousel/>
+      <ReactBootstrap/>
+      <Input/>
+      <ControlComponent/>
+      {/* <Heading/>
+      <Carousel/> */}
     </div>
   );
 }
