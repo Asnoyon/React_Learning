@@ -31,8 +31,8 @@ function App() {
       <ReactBootstrap/>
       <Input/>
       <ControlComponent/>
-      {/* <Heading/>
-      <Carousel/> */}
+      <Heading/>
+      <Carousel/>
     </div>
   );
 }
