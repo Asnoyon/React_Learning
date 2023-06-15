@@ -32,7 +32,7 @@ function App() {
       <Input/>
       <ControlComponent/>
       <Heading/>
-      <Carousel/>
+      {/* <Carousel/> */}
     </div>
   );
 }
