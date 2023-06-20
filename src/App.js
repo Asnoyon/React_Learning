@@ -30,9 +30,9 @@ function App() {
       <WelcomeAdmin/>
       <ReactBootstrap/>
       <Input/>
-      <ControlComponent/>
+      {/* <ControlComponent/>
       <Heading/>
-      <Carousel/>
+      <Carousel/> */}
     </div>
   );
 }
