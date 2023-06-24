@@ -48,7 +48,7 @@ class About extends Component{
         return(
             <>
                 <h1> My Profession is {this.state.prof} </h1>
-                <button onClick={this.changeMind} >Change Value</button>
+                <button onClick={this.changeMind} >Change Valu</button>
             </>
         )
     }
