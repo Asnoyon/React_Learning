@@ -22,7 +22,7 @@ function Clipboard() {
         />
         </div>
         <div>
-            <label>You can paste here</label>
+            <label>You can paste here.</label>
             <input type="text"
                  onCopy= {copyText}
                  onCut = {cutText}
