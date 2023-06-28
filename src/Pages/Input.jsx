@@ -33,7 +33,7 @@ export default class Input extends Component {
             <option value="Select">Select</option>
             <option value="Programming">Programming</option>
             <option value="Education">Education</option>
-            <option value="Entertainment">Entertainment</option>
+            <option value="Entertainment">Hobby</option>
          </select>
          <input type="date" name="CreationDate" onChange={this.FormChange} value={CreationDate} className='form-control' />
          <textarea name="AboutTextarea" onChange={this.FormChange} value={AboutTextarea} className='form-control'></textarea>
