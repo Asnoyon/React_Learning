@@ -3,7 +3,7 @@ import React from 'react'
 function Filter() {
   return (
     <div>
-        <h1> filter </h1>
+        <h1>Filter</h1>
     </div>
   )
 }
