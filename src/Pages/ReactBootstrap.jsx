@@ -5,7 +5,7 @@ function ReactBootstrap() {
     <div>
         <button className='btn btn-warning'>Go On</button>
         <Button>
-            React Bootstrap
+            React Bootstraps
         </Button>
     </div>
   )
