@@ -2,7 +2,7 @@ import React from 'react'
 
 function Keyboard() {
     const onKeyDownText = ()=>{
-        console.log("key down")
+        console.log("key Down")
     }
     const onKeyUpText = ()=>{
         console.log("key Up")
