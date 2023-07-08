@@ -30,7 +30,7 @@ export default class Input extends Component {
        
          <input type="text" name='ChannelName' placeholder='Channel Name'  className='form-control' onChange={this.FormChange} value={ChannelName} />
          <select name="category" onChange={this.FormChange} value={category} className='form-control'>
-            <option value="Select">Select</option>
+            <option value="Select">Down</option>
             <option value="Programming">Programming</option>
             <option value="Education">Education</option>
             <option value="Entertainment">Entertainment</option>
